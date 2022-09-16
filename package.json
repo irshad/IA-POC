@@ -1,0 +1,36 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "@capacitor-community/text-to-speech": "^2.0.1",
+    "@capacitor/android": "^4.2.0",
+    "@capacitor/browser": "^4.0.1",
+    "@capacitor/camera": "^4.1.1",
+    "@capacitor/cli": "^4.2.0",
+    "@capacitor/clipboard": "^4.0.1",
+    "@capacitor/core": "^4.2.0",
+    "@capacitor/dialog": "^4.0.1",
+    "@capacitor/local-notifications": "^4.1.0",
+    "@capacitor/toast": "^4.0.1",
+    "cordova-plugin-screen-orientation": "^3.0.2",
+    "es6-promise-plugin": "^4.2.2",
+    "sirv-cli": "^2.0.0",
+    "svelte-routing": "^1.6.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "appId": "com.poc.com",
+  "appName": "POC",
+  "webDir": "public",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon_config_sample",
+      "iconColor": "#488AFF",
+      "sound": "beep.wav"
+    },
+    "Toast":{},
+    "Browser":{},
+    "Badge": {
+      "persist": true,
+      "autoClear": false
+    }
+  }
+}

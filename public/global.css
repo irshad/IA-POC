@@ -1,0 +1,28 @@
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+p {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.poc-section {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
