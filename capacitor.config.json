@@ -1,6 +1,6 @@
 {
   "appId": "com.poc.com",
-  "appName": "POC",
+  "appName": "IA POC",
   "webDir": "public",
   "bundledWebRuntime": false,
   "plugins": {
