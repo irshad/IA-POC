@@ -13,7 +13,7 @@
 
 <div class="poc-section">
   <p>7) Dialog box</p>
-  <button class="btn btn-warning mt-2" on:click={showConfirm}> Dialog </button>
+  <button class="btn btn-dark mt-2" on:click={showConfirm}> Dialog </button>
 </div>
 
 <style>

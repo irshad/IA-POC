@@ -20,7 +20,7 @@
 
 <div class="poc-section">
   <p>8) Clipboard</p>
-  <button class="btn btn-success mt-2" on:click={checkClipboard}> Clipboard </button>
+  <button class="btn btn-dark mt-2" on:click={checkClipboard}> Clipboard </button>
 </div>
 
 <style>

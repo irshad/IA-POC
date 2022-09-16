@@ -12,7 +12,7 @@
 
 <div class="poc-section">
   <p>6) Toast Message</p>
-  <button class="btn btn-primary mt-2" on:click={showHelloToast}> Toast </button>
+  <button class="btn btn-dark mt-2" on:click={showHelloToast}> Toast </button>
 </div>
 
 <style>

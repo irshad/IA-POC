@@ -15,9 +15,9 @@
 <div class="poc-section">
   <p>4) Device Rotation</p>
   <div class="d-flex gap-2">
-    <button class="btn btn-primary mt-2" on:click={landscape}> Landscape </button>
-    <button class="btn btn-danger mt-2" on:click={portrait}> Portrait </button>
-    <button class="btn btn-success mt-2" on:click={unlockOrientation}> Auto </button>
+    <button class="btn btn-dark mt-2" on:click={landscape}> Landscape </button>
+    <button class="btn btn-dark mt-2" on:click={portrait}> Portrait </button>
+    <button class="btn btn-dark mt-2" on:click={unlockOrientation}> Auto </button>
   </div>
 </div>
 

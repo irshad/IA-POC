@@ -23,7 +23,7 @@
 <div class="poc-section pt-4">
   <p>1) Local Notifications</p>
   <div class="d-flex gap-2">
-    <button class="btn btn-info mt-2" on:click={triggerLocalNotifications}> 
+    <button class="btn btn-dark mt-2" on:click={triggerLocalNotifications}> 
         Trigger Notifications
     </button>
   </div>

@@ -38,8 +38,8 @@
   <p>2) TTS</p>
   <textarea class="form-control" type="text" bind:value />
   <div class="d-flex gap-2">
-    <button class="btn btn-primary mt-2" on:click={speak}> Speak </button>
-    <button class="btn btn-danger mt-2" on:click={stop}> Stop </button>
+    <button class="btn btn-dark mt-2" on:click={speak}> Speak </button>
+    <button class="btn btn-dark mt-2" on:click={stop}> Stop </button>
   </div>
 </div>
 

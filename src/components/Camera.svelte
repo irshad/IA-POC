@@ -35,7 +35,7 @@
       <img src={imageUrl} alt="" />
     </div>
   {/if}
-  <button class="btn btn-warning mt-2" on:click={takePicture}> Open Camera </button>
+  <button class="btn btn-dark mt-2" on:click={takePicture}> Open Camera </button>
 </div>
 
 <style>
