@@ -31,6 +31,7 @@
     "cordova-plugin-screen-orientation": "^3.0.2",
     "es6-promise-plugin": "^4.2.2",
     "sirv-cli": "^2.0.0",
+    "svelte-confetti-explosion": "^0.4.0",
     "svelte-routing": "^1.6.0"
   }
 }

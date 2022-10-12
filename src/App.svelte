@@ -8,6 +8,7 @@
   import Dialog from "./components/Dialog.svelte";
   import Clipboard from "./components/Clipboard.svelte";
   import InAppBrowser from "./components/InAppBrowser.svelte";
+  import ConfettiExplosion from "./components/ConfettiExplosion.svelte";
 </script>
 
 <main class="container">
@@ -20,6 +21,7 @@
   <Dialog/>
   <Clipboard/>
   <InAppBrowser />
+  <ConfettiExplosion />
 </main>
 
 <style>
