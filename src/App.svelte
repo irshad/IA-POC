@@ -9,6 +9,8 @@
   import Clipboard from "./components/Clipboard.svelte";
   import InAppBrowser from "./components/InAppBrowser.svelte";
   import ConfettiExplosion from "./components/ConfettiExplosion.svelte";
+  import BackButton from "./components/BackButton.svelte";
+  import ExitApp from "./components/ExitApp.svelte";
 </script>
 
 <main class="container">
@@ -22,6 +24,8 @@
   <Clipboard/>
   <InAppBrowser />
   <ConfettiExplosion />
+  <BackButton />
+  <ExitApp />
 </main>
 
 <style>
