@@ -1,5 +1,8 @@
 <script>
   import { App } from "@capacitor/app";
+  // import { AndroidBackRoute } from "../utils/config";
+
+  // AndroidBackRoute("/home");
 
   App.addListener('backButton',() => {
     checkBackButton();
