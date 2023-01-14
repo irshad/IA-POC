@@ -29,6 +29,7 @@
     "@capacitor/dialog": "^4.0.1",
     "@capacitor/local-notifications": "^4.1.0",
     "@capacitor/toast": "^4.0.1",
+    "cordova-plugin-apkupdater": "^4.0.1",
     "cordova-plugin-screen-orientation": "^3.0.2",
     "es6-promise-plugin": "^4.2.2",
     "sirv-cli": "^2.0.0",

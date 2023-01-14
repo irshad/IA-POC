@@ -11,6 +11,7 @@
   import ConfettiExplosion from "./components/ConfettiExplosion.svelte";
   import BackButton from "./components/BackButton.svelte";
   import ExitApp from "./components/ExitApp.svelte";
+  import InstallApk from "./components/InstallApk.svelte";
 </script>
 
 <main class="container">
@@ -26,6 +27,7 @@
   <ConfettiExplosion />
   <BackButton />
   <ExitApp />
+  <InstallApk />
 </main>
 
 <style>
