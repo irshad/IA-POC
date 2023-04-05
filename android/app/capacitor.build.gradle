@@ -17,6 +17,7 @@ dependencies {
     implementation project(':capacitor-dialog')
     implementation project(':capacitor-local-notifications')
     implementation project(':capacitor-network')
+    implementation project(':capacitor-status-bar')
     implementation project(':capacitor-toast')
     implementation project(':capacitor-zoom-android')
     implementation "net.lingala.zip4j:zip4j:2.9.1"

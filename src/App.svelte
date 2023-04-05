@@ -15,6 +15,8 @@
   import NetworkCheck from "./components/NetworkCheck.svelte";
   import PdfViewer from "./components/PdfViewer.svelte";
   import PinchToZoom from "./components/PinchToZoom.svelte";
+  import DeviceType from "./components/DeviceType.svelte";
+  import StatusBar from "./components/StatusBar.svelte";
 </script>
 
 <main class="container">
@@ -34,6 +36,8 @@
   <NetworkCheck />
   <PdfViewer />
   <PinchToZoom />
+  <DeviceType />
+  <StatusBar />
 </main>
 
 <style>
