@@ -12,6 +12,8 @@
   import BackButton from "./components/BackButton.svelte";
   import ExitApp from "./components/ExitApp.svelte";
   import InstallApk from "./components/InstallApk.svelte";
+  import NetworkCheck from "./components/NetworkCheck.svelte";
+  import PdfViewer from "./components/PdfViewer.svelte";
 </script>
 
 <main class="container">
@@ -28,6 +30,8 @@
   <BackButton />
   <ExitApp />
   <InstallApk />
+  <NetworkCheck />
+  <PdfViewer />
 </main>
 
 <style>
