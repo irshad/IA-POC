@@ -14,6 +14,7 @@
   import InstallApk from "./components/InstallApk.svelte";
   import NetworkCheck from "./components/NetworkCheck.svelte";
   import PdfViewer from "./components/PdfViewer.svelte";
+  import PinchToZoom from "./components/PinchToZoom.svelte";
 </script>
 
 <main class="container">
@@ -32,6 +33,7 @@
   <InstallApk />
   <NetworkCheck />
   <PdfViewer />
+  <PinchToZoom />
 </main>
 
 <style>

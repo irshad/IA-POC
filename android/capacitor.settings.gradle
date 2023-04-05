@@ -28,3 +28,6 @@ project(':capacitor-network').projectDir = new File('../node_modules/@capacitor/
 
 include ':capacitor-toast'
 project(':capacitor-toast').projectDir = new File('../node_modules/@capacitor/toast/android')
+
+include ':capacitor-zoom-android'
+project(':capacitor-zoom-android').projectDir = new File('../node_modules/capacitor-zoom-android/android')
