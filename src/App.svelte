@@ -17,17 +17,18 @@
   import PinchToZoom from "./components/PinchToZoom.svelte";
   import DeviceType from "./components/DeviceType.svelte";
   import StatusBar from "./components/StatusBar.svelte";
+  import SpeechRecognition from "./components/SpeechRecognition.svelte";
 </script>
 
 <main class="container">
-  <LocalNotifications/>
+  <LocalNotifications />
   <TTS />
   <Camera />
   <DeviceOrientation />
   <OpenAndroidApp />
-  <Toast/>
-  <Dialog/>
-  <Clipboard/>
+  <Toast />
+  <Dialog />
+  <Clipboard />
   <InAppBrowser />
   <ConfettiExplosion />
   <BackButton />
@@ -38,6 +39,7 @@
   <PinchToZoom />
   <DeviceType />
   <StatusBar />
+  <SpeechRecognition />
 </main>
 
 <style>
