@@ -17,7 +17,7 @@
   import PinchToZoom from "./components/PinchToZoom.svelte";
   import DeviceType from "./components/DeviceType.svelte";
   import StatusBar from "./components/StatusBar.svelte";
-  import SpeechRecognition from "./components/SpeechRecognition.svelte";
+  // import SpeechRecognition from "./components/SpeechRecognition.svelte";
 </script>
 
 <main class="container">
@@ -39,7 +39,7 @@
   <PinchToZoom />
   <DeviceType />
   <StatusBar />
-  <SpeechRecognition />
+  <!-- <SpeechRecognition /> -->
 </main>
 
 <style>
