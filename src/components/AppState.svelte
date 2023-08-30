@@ -1,6 +1,6 @@
 <script>
-import { App } from "@capacitor/app";
-  App.addListener('appStateChange', ({isActive}) => {
+  import { App } from "@capacitor/app";
+  App.addListener("appStateChange", ({ isActive }) => {
     return isActive;
   });
 </script>
