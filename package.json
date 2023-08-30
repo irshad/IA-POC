@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@capacitor-community/text-to-speech": "^2.0.1",
-    "@capacitor/android": "^4.2.0",
+    "@capacitor/android": "^4.8.1",
     "@capacitor/app": "^4.1.1",
     "@capacitor/browser": "^4.0.1",
     "@capacitor/camera": "^4.1.1",
@@ -35,9 +35,11 @@
     "capacitor-zoom-android": "^1.0.0",
     "cordova-plugin-apkupdater": "^4.0.1",
     "cordova-plugin-screen-orientation": "^3.0.2",
+    "detect-browser": "^5.3.0",
     "es6-promise-plugin": "^4.2.2",
     "sirv-cli": "^2.0.0",
     "svelte-confetti-explosion": "^0.4.0",
-    "svelte-routing": "^1.6.0"
+    "svelte-routing": "^1.6.0",
+    "svelte-system-info": "^1.0.0"
   }
 }

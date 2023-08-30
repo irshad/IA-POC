@@ -18,6 +18,7 @@
   import DeviceType from "./components/DeviceType.svelte";
   import StatusBar from "./components/StatusBar.svelte";
   // import SpeechRecognition from "./components/SpeechRecognition.svelte";
+  import IsAndroid from "./components/IsAndroid.svelte";
 </script>
 
 <main class="container">
@@ -40,6 +41,7 @@
   <DeviceType />
   <StatusBar />
   <!-- <SpeechRecognition /> -->
+  <IsAndroid />
 </main>
 
 <style>
