@@ -1,4 +1,5 @@
 <script>
+  import Ota from "./components/OTA.svelte";
   import LocalNotifications from "./components/LocalNotifications.svelte";
   import TTS from "./components/TTS.svelte";
   import Camera from "./components/Camera.svelte";
@@ -17,7 +18,6 @@
   import PinchToZoom from "./components/PinchToZoom.svelte";
   import DeviceType from "./components/DeviceType.svelte";
   import StatusBar from "./components/StatusBar.svelte";
-  // import SpeechRecognition from "./components/SpeechRecognition.svelte";
   import IsAndroid from "./components/IsAndroid.svelte";
 </script>
 
@@ -40,8 +40,8 @@
   <PinchToZoom />
   <DeviceType />
   <StatusBar />
-  <!-- <SpeechRecognition /> -->
   <IsAndroid />
+  <Ota />
 </main>
 
 <style>

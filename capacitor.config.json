@@ -5,8 +5,11 @@
   "bundledWebRuntime": false,
   "plugins": {
     "LocalNotifications": {},
-    "Toast":{},
-    "Browser":{}
+    "Toast": {},
+    "Browser": {},
+    "CapacitorUpdater": {
+      "autoUpdate": false
+    }
   },
   "ios": {
     "contentInset": "always"

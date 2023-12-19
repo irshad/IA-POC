@@ -32,6 +32,7 @@
     "@capacitor/network": "^4.1.0",
     "@capacitor/status-bar": "^4.1.1",
     "@capacitor/toast": "^4.0.1",
+    "@capgo/capacitor-updater": "^4.0.0",
     "capacitor-zoom-android": "^1.0.0",
     "cordova-plugin-apkupdater": "^4.0.1",
     "cordova-plugin-screen-orientation": "^3.0.2",
