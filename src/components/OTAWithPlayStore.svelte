@@ -25,7 +25,7 @@
     }
 
     /**
-     * Here updating the local storage for the fist time or if there is  no version is saved in
+     * Here updating the local storage for the fist time or if there is no version is saved in
      * local storage to refer OTA version
     */
 
@@ -55,7 +55,7 @@
       /**
        * Here will set "latestOTAVersion" in local storage.
        * If the version saved in local storage doesn't matched with the version coming from backend
-       * will trigger the "checkForUpdate()" and get the latest update package and i'll update the app and
+       * will trigger the "checkForUpdate()" and get the latest update package and it'll update the app and
        * also update the local storage with "latestOTAVersion"
        */
 

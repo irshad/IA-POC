@@ -19,6 +19,9 @@
   import DeviceType from "./components/DeviceType.svelte";
   import StatusBar from "./components/StatusBar.svelte";
   import IsAndroid from "./components/IsAndroid.svelte";
+  import AppState from "./components/AppState.svelte";
+  import PdfRenderer from "./components/PdfRenderer.svelte";
+  import KeyBoard from "./components/KeyBoard.svelte";
 </script>
 
 <main class="container">
@@ -42,6 +45,9 @@
   <StatusBar />
   <IsAndroid />
   <Ota />
+  <!-- <AppState /> -->
+  <!-- <PdfRenderer path="/book.pdf"/> -->
+  <KeyBoard/>
 </main>
 
 <style>

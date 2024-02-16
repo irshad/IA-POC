@@ -9,6 +9,11 @@
     "Browser": {},
     "CapacitorUpdater": {
       "autoUpdate": false
+    },
+    "Keyboard": {
+      "resize": "body",
+      "style": "DARK",
+      "resizeOnFullScreen": true
     }
   },
   "ios": {
