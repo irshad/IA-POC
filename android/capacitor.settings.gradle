@@ -38,5 +38,8 @@ project(':capacitor-toast').projectDir = new File('../node_modules/@capacitor/to
 include ':capgo-capacitor-updater'
 project(':capgo-capacitor-updater').projectDir = new File('../node_modules/@capgo/capacitor-updater/android')
 
+include ':hugotomazi-capacitor-navigation-bar'
+project(':hugotomazi-capacitor-navigation-bar').projectDir = new File('../node_modules/@hugotomazi/capacitor-navigation-bar/android')
+
 include ':capacitor-zoom-android'
 project(':capacitor-zoom-android').projectDir = new File('../node_modules/capacitor-zoom-android/android')

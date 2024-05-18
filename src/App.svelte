@@ -22,6 +22,7 @@
   import AppState from "./components/AppState.svelte";
   import PdfRenderer from "./components/PdfRenderer.svelte";
   import KeyBoard from "./components/KeyBoard.svelte";
+  import NavigationBar from "./components/NavigationBar.svelte";
 </script>
 
 <main class="container">
@@ -48,6 +49,7 @@
   <!-- <AppState /> -->
   <!-- <PdfRenderer path="/book.pdf"/> -->
   <KeyBoard/>
+  <NavigationBar/>
 </main>
 
 <style>

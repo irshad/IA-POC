@@ -24,10 +24,6 @@
 <div class="poc-section">
   <p>23) Keyboard</p>
 
-  <div>
-    <input type="text" class="form-control">
-  </div>
-
   <div class="d-flex gap-2">
     <button class="btn btn-dark mt-2" on:click={show}>Open Keyboard</button>
     <button class="btn btn-dark mt-2" on:click={hide}>Hide Keyboard</button>
